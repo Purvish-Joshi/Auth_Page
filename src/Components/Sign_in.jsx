@@ -11,7 +11,7 @@ const SignIn = () => {
       <AuthHeader />
 
       {/* Main Content Area */}
-      <main className="flex-grow flex h-screen bg-gradient-to-r from-amber-400 to-white  dark:bg-gradient-to-r  dark:from-dark300 dark:to-dark100">
+      <main className="flex-grow flex  bg-gradient-to-r from-amber-400 to-white  dark:bg-gradient-to-r  dark:from-dark300 dark:to-dark100">
         {/* Your authentication forms or other content go here */}
         <div className="w-1/2  hidden md:flex flex-col items-center justify-center p-8  ">
           <div className="text-left text-3xl font-bold  dark:text-white pl-12">
