@@ -66,11 +66,11 @@ const SignUp = () => {
                 dark:border-slate-700"
             />
 
-            <button className="w-full py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-600 text-[1rem] mt-3">
+            <button className="w-full py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-600 text-md mt-3">
               Sign In
             </button>
 
-            <h4 className="text-gray-500 m-4 text-sm dark:dark:text-white">
+            <h4 className="text-gray-500 m-4 text-sm text-center dark:dark:text-white">
               Already have an account? {""}
               <Link to="/" className="text-black underline dark:text-gray-500 ">
                 Sign in
