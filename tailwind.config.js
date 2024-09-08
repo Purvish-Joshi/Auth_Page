@@ -11,6 +11,9 @@ export default {
         dark200: "#030712",
         dark100: "#111827",
       },
+      fontFamily: {
+        pacifico: ["Pacifico", "cursive"], // 'cursive' is the fallback font
+      },
     },
   },
   plugins: [],
