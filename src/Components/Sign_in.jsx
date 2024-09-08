@@ -56,6 +56,13 @@ const SignIn = () => {
                 dark:border-slate-700"
             />
 
+            <Link
+              to="/forget-password"
+              className="text-sm  text-black  dark:text-gray-500 hover:text-red-500 "
+            >
+              Forget Password ?
+            </Link>
+
             <button className="w-full py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-600 text-md mt-3">
               Sign In
             </button>

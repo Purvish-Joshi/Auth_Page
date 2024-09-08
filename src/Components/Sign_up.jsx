@@ -67,7 +67,7 @@ const SignUp = () => {
             />
 
             <button className="w-full py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-600 text-md mt-3">
-              Sign In
+              Sign Up
             </button>
 
             <h4 className="text-gray-500 m-4 text-sm text-center dark:dark:text-white">
