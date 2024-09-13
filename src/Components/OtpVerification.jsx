@@ -35,9 +35,19 @@ const OtpVerification = () => {
 
         {/* Main Content Area */}
         <main className="flex-grow  flex justify-center items-center bg-gradient-to-r from-amber-400 to-white  dark:bg-gradient-to-r  dark:from-dark300 dark:to-dark100">
-          <div className="flex justify-center items-center ">
+          <div className="w-1/2  hidden md:flex flex-col items-center justify-center p-8 ">
+            <div className="text-left text-3xl font-bold  dark:text-white pl-12">
+              <p>Verify Your Identity!</p>
+              <p>
+                Enter the One-Time Password (OTP) sent to your email or phone to
+                continue. This helps us keep your account secure.
+              </p>
+            </div>
+          </div>
+
+          <div className="w-1/2 flex justify-center items-center ">
             {/* Add your form or content */}
-            <form className="flex flex-col justify-center items-center p-4 glass m-4 h-[400px]">
+            <form className="flex flex-col justify-center items-center p-4  m-4 h-[400px]">
               <h1 className="text-5xl font-bold m-5 text-center text-black dark:text-white">
                 OTP Verification
               </h1>
@@ -59,14 +69,14 @@ const OtpVerification = () => {
                 Verify
               </button>
 
-              <h4 className="m-4 p-4 text-white">
+              <h4 className="m-4 p-4 text-black dark:text-zinc-300">
                 {isResendEnabled ? (
                   <>
                     Didn't Get OTP?{" "}
                     <a
                       href="#"
                       onClick={handleResendOtp}
-                      className="text-zinc-300"
+                      className="text-black dark:text-zinc-300"
                     >
                       Resend
                     </a>

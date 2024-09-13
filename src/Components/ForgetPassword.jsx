@@ -19,9 +19,19 @@ function forget_Password() {
 
         {/* Main Content Area */}
         <main className="flex-grow flex justify-center items-center bg-gradient-to-r from-amber-400 to-white  dark:bg-gradient-to-r  dark:from-dark300 dark:to-dark100">
+          <div className="w-1/2  hidden md:flex flex-col items-center justify-center p-8  ">
+            <div className="text-left text-3xl font-bold  dark:text-white pl-12">
+              <p>Reset Your Password</p>
+              <p>
+                Please enter your email address to receive a password reset
+                link. We'll help you get back on track!
+              </p>
+            </div>
+          </div>
+
           <div className="flex justify-center items-center">
             {/* Add your form or content */}
-            <form className="glass p-6 rounded shadow-md flex flex-col justify-center items-center ">
+            <form className="w-1/2 p-6 rounded  flex flex-col justify-center items-center ">
               <h2 className="text-2xl mb-4 text-black dark:text-white">
                 If the account exists, we'll email you OTP to reset the
                 password.
